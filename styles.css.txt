@@ -1,0 +1,447 @@
+body {
+    margin: 0;
+    padding: 0;
+ }
+ 
+ #background 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: relative; 
+     margin-left: auto; 
+     margin-right: auto; 
+     width: 1200px;
+     height: 1600px; 
+     overflow: hidden;
+     z-index:0;
+    } 
+
+ #Background 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: absolute; 
+     width: 1200px;
+     height: 1600px;
+     z-index:1;
+} 
+
+ #Rectangle1 
+{ 
+     left: -1px; 
+     top: -1px; 
+     position: absolute; 
+     width: 1202px;
+     height: 122px;
+     z-index:2;
+} 
+
+ #logo1 
+{ 
+     left: 144px; 
+     top: 26px; 
+     position: absolute; 
+     width: 148px;
+     height: 68px;
+     z-index:3;
+} 
+
+ #banner 
+{ 
+     left: 0px; 
+     top: 120px; 
+     position: absolute; 
+     width: 1200px;
+     height: 384px;
+     z-index:4;
+} 
+
+ #Shape1 
+{ 
+     left: -2px; 
+     top: 574px; 
+     position: absolute; 
+     width: 1203px;
+     height: 7px;
+     z-index:5;
+} 
+
+ #banner1 
+{ 
+     left: 0px; 
+     top: 120px; 
+     position: absolute; 
+     width: 1200px;
+     height: 455px;
+     z-index:6;
+} 
+
+ #HomeImageFeedback 
+{ 
+     left: 537px; 
+     top: 60px; 
+     position: absolute; 
+     width: 432px;
+     height: 23px;
+     z-index:7;
+} 
+
+ #loginshape 
+{ 
+     left: 988px; 
+     top: 50px; 
+     position: absolute; 
+     width: 110px;
+     height: 39px;
+     z-index:8;
+} 
+
+ #RoundedRectangle2 
+{ 
+     left: 494px; 
+     top: 834px; 
+     position: absolute; 
+     width: 273px;
+     height: 40px;
+     z-index:9;
+} 
+
+ #RoundedRectangle2cop 
+{ 
+     left: 129px; 
+     top: 834px; 
+     position: absolute; 
+     width: 287px;
+     height: 40px;
+     z-index:10;
+} 
+
+ #RoundedRectangle2cop_0 
+{ 
+     left: 816px; 
+     top: 834px; 
+     position: absolute; 
+     width: 268px;
+     height: 40px;
+     z-index:11;
+} 
+
+ #VIew 
+{ 
+     left: 154px; 
+     top: 846px; 
+     position: absolute; 
+     width: 53px;
+     height: 17px;
+     z-index:12;
+} 
+
+ #VIewcopy 
+{ 
+     left: 519px; 
+     top: 846px; 
+     position: absolute; 
+     width: 53px;
+     height: 17px;
+     z-index:13;
+} 
+
+ #VIewcopy2 
+{ 
+     left: 844px; 
+     top: 846px; 
+     position: absolute; 
+     width: 53px;
+     height: 17px;
+     z-index:14;
+} 
+
+ #Login 
+{ 
+     left: 1013px; 
+     top: 60px; 
+     position: absolute; 
+     width: 64px;
+     height: 23px;
+     z-index:15;
+} 
+
+ #bird 
+{ 
+     left: 109px; 
+     top: 613px; 
+     position: absolute; 
+     width: 344px;
+     height: 208px;
+     z-index:16;
+} 
+
+ #redrose 
+{ 
+     left: 485px; 
+     top: 613px; 
+     position: absolute; 
+     width: 292px;
+     height: 208px;
+     z-index:17;
+} 
+
+ #horsse 
+{ 
+     left: 812px; 
+     top: 613px; 
+     position: absolute; 
+     width: 276px;
+     height: 208px;
+     z-index:18;
+} 
+
+ #Download 
+{ 
+     left: 272px; 
+     top: 846px; 
+     position: absolute; 
+     width: 105px;
+     height: 18px;
+     z-index:19;
+} 
+
+ #RoundedRectangle2cop_1 
+{ 
+     left: 127px; 
+     top: 1170px; 
+     position: absolute; 
+     width: 287px;
+     height: 40px;
+     z-index:20;
+} 
+
+ #RoundedRectangle2cop_2 
+{ 
+     left: 127px; 
+     top: 1170px; 
+     position: absolute; 
+     width: 287px;
+     height: 40px;
+     z-index:21;
+} 
+
+ #VIewcopy3 
+{ 
+     left: 152px; 
+     top: 1182px; 
+     position: absolute; 
+     width: 53px;
+     height: 17px;
+     z-index:22;
+} 
+
+ #Downloadcopy3 
+{ 
+     left: 270px; 
+     top: 1182px; 
+     position: absolute; 
+     width: 105px;
+     height: 18px;
+     z-index:23;
+} 
+
+ #RoundedRectangle2cop_3 
+{ 
+     left: 483px; 
+     top: 1170px; 
+     position: absolute; 
+     width: 287px;
+     height: 40px;
+     z-index:24;
+} 
+
+ #VIewcopy4 
+{ 
+     left: 508px; 
+     top: 1182px; 
+     position: absolute; 
+     width: 53px;
+     height: 17px;
+     z-index:25;
+} 
+
+ #Downloadcopy4 
+{ 
+     left: 626px; 
+     top: 1182px; 
+     position: absolute; 
+     width: 105px;
+     height: 18px;
+     z-index:26;
+} 
+
+ #RoundedRectangle2cop_4 
+{ 
+     left: 797px; 
+     top: 1170px; 
+     position: absolute; 
+     width: 287px;
+     height: 40px;
+     z-index:27;
+} 
+
+ #VIewcopy5 
+{ 
+     left: 822px; 
+     top: 1182px; 
+     position: absolute; 
+     width: 53px;
+     height: 17px;
+     z-index:28;
+} 
+
+ #Downloadcopy5 
+{ 
+     left: 940px; 
+     top: 1182px; 
+     position: absolute; 
+     width: 105px;
+     height: 18px;
+     z-index:29;
+} 
+
+ #bird1 
+{ 
+     left: 485px; 
+     top: 921px; 
+     position: absolute; 
+     width: 294px;
+     height: 236px;
+     z-index:30;
+} 
+
+ #Downloadcopy 
+{ 
+     left: 630px; 
+     top: 846px; 
+     position: absolute; 
+     width: 105px;
+     height: 18px;
+     z-index:31;
+} 
+
+ #Downloadcopy2 
+{ 
+     left: 951px; 
+     top: 846px; 
+     position: absolute; 
+     width: 105px;
+     height: 18px;
+     z-index:32;
+} 
+
+ #dear 
+{ 
+     left: 109px; 
+     top: 919px; 
+     position: absolute; 
+     width: 344px;
+     height: 238px;
+     z-index:33;
+} 
+
+ #layer_1 
+{ 
+     left: 806px; 
+     top: 921px; 
+     position: absolute; 
+     width: 272px;
+     height: 236px;
+     z-index:34;
+} 
+
+ #Rectangle2 
+{ 
+     left: -9px; 
+     top: 1249px; 
+     position: absolute; 
+     width: 1203px;
+     height: 352px;
+     z-index:35;
+} 
+
+ #Layer1 
+{ 
+     left: 253px; 
+     top: 1308px; 
+     position: absolute; 
+     width: 37px;
+     height: 49px;
+     z-index:36;
+} 
+
+ #Layer3 
+{ 
+     left: 907px; 
+     top: 1308px; 
+     position: absolute; 
+     width: 51px;
+     height: 49px;
+     z-index:37;
+} 
+
+ #Layer2 
+{ 
+     left: 570px; 
+     top: 1308px; 
+     position: absolute; 
+     width: 60px;
+     height: 49px;
+     z-index:38;
+} 
+
+ #Copyright 
+{ 
+     left: 505px; 
+     top: 1536px; 
+     position: absolute; 
+     width: 124px;
+     height: 29px;
+     z-index:39;
+} 
+
+ #Layer5 
+{ 
+     left: 647px; 
+     top: 1542px; 
+     position: absolute; 
+     width: 16px;
+     height: 16px;
+     z-index:40;
+} 
+
+ #Location 
+{ 
+     left: 211px; 
+     top: 1381px; 
+     position: absolute; 
+     width: 104px;
+     height: 21px;
+     z-index:41;
+} 
+
+ #Contact 
+{ 
+     left: 895px; 
+     top: 1381px; 
+     position: absolute; 
+     width: 98px;
+     height: 21px;
+     z-index:42;
+} 
+
+ #Gmail 
+{ 
+     left: 565px; 
+     top: 1380px; 
+     position: absolute; 
+     width: 70px;
+     height: 22px;
+     z-index:43;
+} 

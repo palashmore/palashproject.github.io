@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   Reset CSS
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;/*18 px*/
+	font: inherit;/* initial positon*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+
+	line-height: 1;
+	font-family: Roboto-light;
+	font-size: 15px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;/* external border spacing */
+	border-spacing: 0;
+}
+/*Font attachment */
+@font-face{font-family: Roboto-light;src:url(../fonts/Roboto-light.ttf);}
+@font-face{font-family: Roboto-Medium;src:url(../fonts/Roboto-Medium.ttf);}
+/* All heading tags */
+h1{font-size: 42px;color:#6f7173;font-family:Roboto-Medium;}
+h2{font-size: 36px;color:#6f7173;font-family:Roboto-Medium;}
+h3{font-size: 26px;color:#6f7173;font-family:Roboto-Medium;}
+h4{font-size: 24px;color:#6f7173;font-family:Roboto-Medium;}
+h5{font-size: 20px;color:#5094f2;font-family:Roboto-Medium;}
+h6{font-size: 16px;color:#6f7173;font-family:Roboto-Medium;}
+/*clear hack*/
+.clear{clear:both;}
+/*container width*/
+.container{max-width: 1024px;margin: 0 auto;border: 1px solid block;}
+/*header{margin: 20px 20px 20px 20px}
+ul li a{float: left; display: inline-block}*/
+/*main coding*/
+/*header*/
+header{width: 100%;background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}header img{float: left; margin-top:15px;margin-left: 26px;margin-bottom:15px ;margin-right:46px; }
+header ul{float: right; margin-top: 70px;}
+header ul li{display: inline-block; margin-left: 16px; margin-right: 16px; margin-bottom: 23px;}
+header ul li a{text-decoration: none;color: #000000; font-size: 23px; padding-bottom: 26px;}
+header ul li a:hover{ border-bottom: 3px solid #5094f2;  }
+header ul li input{font-size: 17px;}
+
+.backimg{background-image: url(../img/2.jpg);background-size: cover;background-repeat: no-repeat;}
+
+
+
+.block{display: inline-block; width:40%;background-color: #e5e5e5 ;opacity: 0.7;
+ margin: 100px 50px 100px 300px;}
+.block h2{text-align: center; margin-top: 10px; color: #000000;}
+.block input{padding-right: 10px;}
+
+
+/*footer data*/
+.footer1{width: 100%;
+	background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+ text-align: center;}
+.footer1 .data{width: 341.3333px;float: left; text-align:center; }
+.footer1 .data img{margin-top: 40px; margin-bottom: 5px;}
+.footer1 .data p{margin-top: 10px; margin-bottom: 40px; font-size:20px;color:#000000;}
+/*footer*/
+footer{width: 100%; text-align: center; border-top: 1px solid #000000;
+	background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+border-bottom: 1px solid #000000;}
+footer p{margin-top: 35px; margin-bottom: 35px; font-size: 20px;}
+

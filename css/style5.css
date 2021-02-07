@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   Reset CSS
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;/*18 px*/
+	font: inherit;/* initial positon*/
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: Roboto-light;
+	font-size: 15px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;/* external border spacing */
+	border-spacing: 0;
+}
+/*Font attachment */
+@font-face{font-family: Roboto-light;src:url(../fonts/Roboto-light.ttf);}
+@font-face{font-family: Roboto-Medium;src:url(../fonts/Roboto-Medium.ttf);}
+/* All heading tags */
+h1{font-size: 42px;color:#6f7173;font-family:Roboto-Medium;}
+h2{font-size: 36px;color:#6f7173;font-family:Roboto-Medium;}
+h3{font-size: 26px;color:#6f7173;font-family:Roboto-Medium;}
+h4{font-size: 24px;color:#6f7173;font-family:Roboto-Medium;}
+h5{font-size: 20px;color:#5094f2;font-family:Roboto-Medium;}
+h6{font-size: 16px;color:#6f7173;font-family:Roboto-Medium;}
+/*clear hack*/
+.clear{clear:both;}
+/*container width*/
+.container{max-width: 1024px;margin: 0 auto;border: 1px solid block;}
+/*header{margin: 20px 20px 20px 20px}
+ul li a{float: left; display: inline-block}*/
+/*main coding*/
+/*header*/
+header{width: 100%; background: #ff4b1f;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ff9068, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ff9068, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header img{float: left; margin-top:15px;margin-left: 26px;margin-bottom:15px ; }
+header ul{float: right; margin-top: 50px;}
+header ul li{display: inline-block; margin-left: 16px; margin-right: 16px; margin-bottom: 23px;}
+header ul li input{font-size: 17px;}
+header ul li h4{color: #000000;}
+header p img{margin-left: 319px; margin-top: 30px;}
+
+/*slide bar*/
+.sidebar{float: left; display: inline-block; width: 30%; background-color: grey; text-align: center; border-right: 3px solid black;  border-left: 3px solid black; height: 800px;}
+.sidebar h3{margin-left:50px;padding-top:22px; color: #000000; ma }
+.sidebar .box1:hover{background-color: red;}
+.sidebar .box2:hover{background-color: red;}
+.sidebar .box3:hover{background-color: red;}
+.sidebar .box4:hover{background-color: red;}
+.box1{background-color: red; height: 60px;margin-top:50px; margin-bottom: 50px;}
+.box2{background-color: #ffffff; height: 70px; margin-top:50px; margin-bottom: 50px;}
+.box3{background-color: #ffffff; height: 70px; margin-top:50px; margin-bottom: 50px;}
+.box4{background-color: #ffffff; height: 70px; margin-top:50px; margin-bottom: 50px;}
+
+
+/*main content */
+.data1{float: left; height: 600px; width: 69%; }
+.data1 .image{ height:150px; width: 66%; margin-top: 60px; background-color: green; margin-left: 138px;}
+.data1 .image p{padding-left: 70px; width: 25%; padding-top: 50px; font-family:Roboto-Medium; font-size: 20px;  }
+.data1 .feedback{  height:150px; width: 66%; margin-top: 60px; background-color: skyblue; margin-left: 138px; }
+.data1 .feedback p{padding-left: 70px; width: 30%; padding-top: 50px; font-family:Roboto-Medium; font-size: 20px; }
+.data1 .contact{ height:150px; width: 66%; margin-top: 60px; background-color: pink; margin-left: 138px; margin-bottom: 50px;}
+.data1 .contact p{padding-left: 70px; width: 30%; padding-top: 50px; font-family:Roboto-Medium; font-size: 20px; }
+
+
+
+footer{width: 100%; text-align: center; border-top: 1px solid #000000; background-color: #f68e56;border-bottom: 1px solid #000000; margin-top: 77px;}
+footer p{margin-top: 35px; margin-bottom: 35px; font-size: 20px;}
